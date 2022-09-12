@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+}
+.timmer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.timmer label {
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.timmer button {
+  background: #fff;
+  padding: 10px 30px;
+  color: #000;
+  font-size: 16px;
+  margin: 0 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.timmer button svg
+{
+  margin-right: 5px;
+  width: 15px;
+  height: auto;
+}
+.form-group:not(:last-of-type)
+{
+  margin-bottom: 20px;
+}
+.form-group label
+{
+  display: block;
+  margin-bottom: 10px;
+}
+form
+{
+  max-width: 500px;
+  width: 100%;
+  margin:40px auto;
+  border: 1px solid gray;
+  padding: 40px;
+  border-radius: 5px;
+}
+form .form-group input
+{
+  width: 100%;
+}
+form h1
+{
+  margin-top: 0;
+  text-align: center;
+}
+form .form-group input[type="submit"],
+form .form-group button
+{
+  width: 100%;
+    text-align: center;
+    justify-content: center;
+    background: gray;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form .form-group input[type="submit"]:hover,
+form .form-group button:hover
+{
+  background: black;
+}
+.error-msg
+{
+  color: red;
+  margin-bottom: 10px;
+}
+.form-group input,
+.form-group textarea
+{
+  width: 100%;
+  background: #fff;
+  padding: 10px 20px;
+  color: #000;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 5px;
+  letter-spacing: 0;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.form-group textarea
+{
+  height: 200px;
+  resize: none;
+}
+.form-group textarea::placeholder
+{
+  font-family: Arial;
+}
+.form-group select
+{
+  width: 100%;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 5px;
+  letter-spacing: 0;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  outline: none;
+}
+.form-group select option
+{
+  padding: 10px 20px;
+}
+.appand-item
+{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.appand-item *
+{
+  flex: 1;
+}
+.appand-item span
+{
+  text-align: left;
+  padding-left: 10px;
+}
+.appand-item button
+{
+  flex: 0 0 20px;
+}
+header
+{
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+header ul
+{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header ul li
+{
+  margin: 10px;
+}
+header ul li a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+header ul li a[aria-current="page"]
+{
+  color: red;
+}
