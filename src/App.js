@@ -8,7 +8,7 @@ import Eventhandler from './component/eventhandler';
 import Counter from './component/counter';
 import Ref from './component/ref';
 import Bform from './component/bform';
-import Nameform from './component/dform';
+// import Nameform from './component/dform';
 import Fancyform from './component/fancyform';
 import Listitem from './component/List';
 
